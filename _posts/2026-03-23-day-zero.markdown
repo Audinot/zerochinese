@@ -5,7 +5,7 @@ title: "Day Zero"
 
 # 你們好。
 
-![喝咖啡](/assets/images/coffee.jpg)
+![喝咖啡](/zerochinese/assets/images/coffee.jpg)
 
 你好，我的名字是 KAT... 我叫 咖啡☕️。
 
