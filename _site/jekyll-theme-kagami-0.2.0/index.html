@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Kagami - Zero Chinese</title>
+  <meta name="description" content="From zero Chinese skill to maybe one Chinese skill.">
+
+  
+  <link rel="stylesheet" href="/assets/styles/core.css?v=20260323145442">
+  <link rel="stylesheet" href="/assets/styles/fontello.css?v=20260323145442">
+  <link rel="stylesheet" href="/assets/styles/highlighting/default.css?v=20260323145442">
+
+  <link rel="canonical" href="http://localhost:4000/jekyll-theme-kagami-0.2.0/">
+  <link rel="alternate" type="application/rss+xml" title="Zero Chinese" href="/feed.xml">
+
+  
+
+  
+</head>
+
+  <body>
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <nav class="site-nav">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</nav>
+
+
+<article class="page" lang="en" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+  <a class="site-title" href="/">Zero Chinese</a>
+  <h1 class="post-title baseline-fix" itemprop="name headline">Kagami</h1>
+</header>
+
+
+
+  <h1 id="kagami">Kagami</h1>
+
+<p><a href="https://travis-ci.org/kamikat/jekyll-theme-kagami"><img src="https://travis-ci.org/kamikat/jekyll-theme-kagami.svg?branch=master" alt="Build Status" /></a>
+<a href="https://badge.fury.io/rb/jekyll-theme-kagami"><img src="https://badge.fury.io/rb/jekyll-theme-kagami.svg" alt="Gem Version" /></a></p>
+
+<p>Simple and clean theme for Jekyll and GitHub Pages.</p>
+
+<p><img src="https://s2.banana.moe/docs/kagami-preview@2x.png" alt="Screenshot" /></p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Add this line to your Jekyll site’s Gemfile:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"jekyll-theme-kagami"</span>
+</code></pre></div></div>
+
+<p>And add this line to your Jekyll site’s <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">theme</span><span class="pi">:</span> <span class="s">jekyll-theme-kagami</span>
+</code></pre></div></div>
+
+<p>And then execute:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ bundle
+</code></pre></div></div>
+
+<p>Or install it yourself as:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ gem install jekyll-theme-kagami
+</code></pre></div></div>
+
+<h3 id="github-pages">GitHub Pages</h3>
+
+<p>Jekyll build is integrated with GitHub Pages with limited function. This section is intended for those who
+want to use the theme with GitHub Pages hosted sites.</p>
+
+<ol>
+  <li>Download latest gem file from https://rubygems.org/gems/jekyll-theme-kagami</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">gem unpack [path-to-downloaded-gem-file] --target=.</code> on jekyll site project folder</li>
+  <li>Delete the line <code class="language-plaintext highlighter-rouge">theme: ...</code> in <code class="language-plaintext highlighter-rouge">_config.yml</code></li>
+</ol>
+
+<p>Zip archive downloaded from release page may not work because GitHub does not pack necessary files from submodules.</p>
+
+<p>Instruction 1 and 2 can also work when you decide to upgrade your installation.</p>
+
+<h2 id="usage">Usage</h2>
+
+<h3 id="social-account-links">Social account links</h3>
+
+<p>You can customize social account links by adding following lines to <code class="language-plaintext highlighter-rouge">_config.yml</code></p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">github_username</span><span class="pi">:</span> <span class="s">my_github_username</span>
+<span class="na">twitter_username</span><span class="pi">:</span> <span class="s">my_twitter_username</span>
+<span class="na">instagram_username</span><span class="pi">:</span> <span class="s">my_instagram_username</span>
+</code></pre></div></div>
+
+<p>You can customize footer by overriding <code class="language-plaintext highlighter-rouge">_includes/footer.html</code>.</p>
+
+<h3 id="syntax-highlighting">Syntax highlighting</h3>
+
+<p>Kagami support color schemes from <a href="https://github.com/jwarby/jekyll-pygments-themes">jekyll-pygments-themes</a>.</p>
+
+<p>Add the following lines to choose a color scheme:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">color_scheme</span><span class="pi">:</span> <span class="s">github</span>
+</code></pre></div></div>
+
+<h3 id="comment-service-disqus-or-gitalk">Comment service (Disqus or Gitalk)</h3>
+
+<p>Add the following lines to your Jekyll site to enable Disqus comment service:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">disqus_shortname</span><span class="pi">:</span> <span class="s">my_disqus_shortname</span>
+</code></pre></div></div>
+
+<p>You can find out more about Disqus’ shortnames <a href="https://help.disqus.com/customer/portal/articles/466208">here</a>.</p>
+
+<p>For <a href="https://github.com/gitalk/gitalk#options">Gitalk</a>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">gitalk</span><span class="pi">:</span>
+  <span class="na">id</span><span class="pi">:</span> <span class="s">&lt;clientID&gt;</span>
+  <span class="na">secret</span><span class="pi">:</span> <span class="s">&lt;clientSecret&gt;</span>
+  <span class="na">repo</span><span class="pi">:</span> <span class="s">&lt;repo&gt;</span>
+  <span class="na">owner</span><span class="pi">:</span> <span class="s">&lt;owner&gt;</span> <span class="c1"># (optional) if not set, value of `github_username` will be used</span>
+  <span class="na">admin</span><span class="pi">:</span> <span class="s">&lt;admin&gt;</span> <span class="c1"># (optional) if not set, value of `github_username` will be used</span>
+  <span class="na">proxy</span><span class="pi">:</span> <span class="s">...</span>     <span class="c1"># (optional)</span>
+</code></pre></div></div>
+
+<p>By default, comment service will only be enabled in production mode, set an environment <code class="language-plaintext highlighter-rouge">JEKYLL_ENV=production</code> for local test.</p>
+
+<p>If you don’t want to comments for particular posts you can disable that by adding <code class="language-plaintext highlighter-rouge">comments: false</code> to the post’s YAML Front Matter.</p>
+
+<h3 id="google-analytics">Google Analytics</h3>
+
+<p>To enable Google Anaytics, add the following lines to your Jekyll site:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">google_analytics</span><span class="pi">:</span> <span class="s">UA-NNNNNNNN-N</span>
+</code></pre></div></div>
+
+<p>Google Analytics will only appear in production, i.e., <code class="language-plaintext highlighter-rouge">JEKYLL_ENV=production</code></p>
+
+<h3 id="navigation-bar">Navigation Bar</h3>
+
+<p>Pages and posts can be registered as navigation item with following frontmatter:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">navbar_title</span><span class="pi">:</span> <span class="s">Awesome Title</span> <span class="c1"># specifies the text to display as navigation item</span>
+</code></pre></div></div>
+
+<p>Navigation items are ordered in alphabetical order by default in Jekyll. Adjust the order manually with a <code class="language-plaintext highlighter-rouge">position</code> value:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">position</span><span class="pi">:</span> <span class="m">999</span>
+</code></pre></div></div>
+
+<h3 id="tags-and-category">Tags and category</h3>
+
+<p>Layout file <code class="language-plaintext highlighter-rouge">post-list</code> supports filtering by tag or category. Create pages with following frontmatter will generate a filtered post list.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">title</span><span class="pi">:</span> <span class="s">Title of Tag Page</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post-list</span>
+<span class="na">filter</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">by_tag</span><span class="pi">:</span> <span class="s">tagname</span>
+</code></pre></div></div>
+
+<p>To filter by both category and tags:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">filter</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">by_tag</span><span class="pi">:</span> <span class="s">tagname</span>
+    <span class="na">by_category</span><span class="pi">:</span> <span class="s">category</span>
+</code></pre></div></div>
+
+<p>Results from multiple filters are combined (logical ‘or’) into the result.</p>
+
+<p>A more flexible filter strategy is supported by supplying liquid expression to <code class="language-plaintext highlighter-rouge">by_expression</code> parameter in which post object can be referenced by the name <code class="language-plaintext highlighter-rouge">post</code>.</p>
+
+<h3 id="mathjax">MathJax</h3>
+
+<p>You can use MathJax with Kramdown’s <a href="https://kramdown.gettalong.org/syntax.html#math-blocks">built-in support</a>.</p>
+
+<p>To enable <a href="https://www.mathjax.org/">MathJax</a>, add following lines to your site
+or post’s front matter stuff:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">mathjax</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<h3 id="mermaid">Mermaid</h3>
+
+<p>To enable <a href="https://mermaid-js.github.io/mermaid/">mermaid</a>, add following line to
+the site configuration or post’s front matter stuff:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">mermaid</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>Code blocks with <code class="language-plaintext highlighter-rouge">mermaid</code> language tag should be transformed into diagrams.</p>
+
+<h3 id="use-side-note-and-retina2x">Use <code class="language-plaintext highlighter-rouge">.side-note</code> and <code class="language-plaintext highlighter-rouge">.retina2x</code></h3>
+
+<p>Taking advantages of <a href="https://kramdown.gettalong.org/syntax.html#block-ials">Block/span IAL</a>,
+Kagami supports extra elements in writing.</p>
+
+<p>Add <code class="language-plaintext highlighter-rouge">{:.side-note}</code> notation after a paragraph (in a new line just after paragraph WITHOUT extra line breaks)
+will style the paragraph as a sidenote. Sidenote will be pull to the left of
+the page and only be visible in desktop mode.</p>
+
+<p>Kagami is also optimized for high-res image display:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">image@2x</span><span class="p">](</span><span class="sx">path-to-image@2x.png</span><span class="p">)</span>{:.retina2x}
+</code></pre></div></div>
+
+<p>And the retina image will be scaled to half of it’s original size in pixels.</p>
+
+<h2 id="contributing">Contributing</h2>
+
+<p>Bug reports and pull requests are welcome on GitHub at <a href="https://github.com/kamikat/jekyll-theme-kagami">https://github.com/kamikat/jekyll-theme-kagami</a>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the <a href="http://contributor-covenant.org">Contributor Covenant</a> code of conduct.</p>
+
+<h2 id="development">Development</h2>
+
+<p>To set up your environment to develop this theme, run <code class="language-plaintext highlighter-rouge">bundle install</code>.</p>
+
+<p>Your theme is setup just like a normal Jekyll site! To test your theme, run <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve -s example</code> and open your browser at <code class="language-plaintext highlighter-rouge">http://localhost:4000</code>. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme’s contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.</p>
+
+<p>When your theme is released, only the files in <code class="language-plaintext highlighter-rouge">_layouts</code>, <code class="language-plaintext highlighter-rouge">_includes</code>, and <code class="language-plaintext highlighter-rouge">_sass</code> tracked with Git will be released.</p>
+
+<h2 id="license">License</h2>
+
+<p>The theme is available as open source under the terms of the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</p>
+
+
+</article>
+
+    </div>
+    <script type="text/javascript">
+  (function () {
+    var resize = function () {
+      this.width = 0.5 * (this.naturalWidth || this.width);
+    }
+    Array.prototype.forEach.call(document.querySelectorAll(".half-size, .retina2x"), function(el) {
+      if (el.naturalWidth) {
+        resize.call(el);
+      } else {
+        el.onload = resize;
+      }
+    });
+  })();
+</script>
+
+    
+  </main>
+
+  <footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="social-links">
+      <a class="social-link social-github" href="https://github.com/Audinot">
+        <i class="icon-github"></i>
+      </a>
+      <a class="social-link social-twitter" href="https://twitter.com/Audinot">
+        <i class="icon-twitter"></i>
+      </a>
+      <a class="social-link social-instagram" href="https://instagram.com/kp.classy">
+        <i class="icon-instagram"></i>
+      </a>
+      <a class="social-link social-rss" href="/feed.xml" target="_blank">
+        <i class="icon-rss"></i>
+      </a>
+    </div>
+    <div class="credits">
+      KAGAMI, made with <i class="icon-heart"></i> by Kamikat
+    </div>
+  </div>
+
+</footer>
+
+
+  <script>
+  (function(elements) {
+    var elements = Array.prototype.slice.call(document.getElementsByClassName('baseline-fix'));
+    for (var i = 0; i != elements.length; i++) {
+      var el = elements[i];
+      el.innerHTML = el.innerHTML.replace(/[\u2000-\u206e⸀-\u2e7e⺀-\u2efe⼀-\u2fde⿰-\u2ffe\u3000-〾\u3040-ゞ゠-ヾ\u3100-\u312e\u3130-ㆎ㆐-㆞ㆠ-\u31be㇀-\u31eeㇰ-ㇾ㈀-㋾㌀-㏾㐀-\u4dbe一-\u9ffe\ua960-\ua97e가-\ud7ae\ud7b0-\ud7fe豈-\ufafe︰-﹎\uff00-￮]|[\ud840-\ud868\ud86a-\ud86c][\udc00-\udfff]|\ud82c[\udc00-\udcfe]|\ud869[\udc00-\udede\udf00-\udfff]|\ud86d[\udc00-\udf3e\udf40-\udfff]|\ud86e[\udc00-\udc1e]|\ud87e[\udc00-\ude1e]/g, function (ch) {
+        return '<span class="baseline-fix-block">' + ch + '<' + '/span>';
+      });
+      el.classList.remove('baseline-fix');
+    }
+  })(Array.prototype.slice.call(document.getElementsByClassName('baseline-fix')));
+</script>
+
+
+</body>
+
+</html>
