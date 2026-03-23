@@ -30,7 +30,9 @@ instagram_username: kp.classy
 
 # Build settings
 # theme: minima
-theme: jekyll-theme-kagami
+# theme: jekyll-theme-kagami
+# THEME LINES are deleted to use Kagami as a gem instead!
+#
 plugins:
   - jekyll-feed
 
