@@ -22,8 +22,8 @@ title: Zero Chinese
 email: kp.audinot@gmail.com 
 description: >- # this means to ignore newlines until "baseurl:"
   From zero Chinese skill to maybe one Chinese skill.
-baseurl: "/zerochinese" # the subpath of your site, e.g. /blog
-url: "audinot.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "audinot.github.io/zerochinese" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Audinot 
 github_username:  Audinot
 instagram_username: kp.classy
