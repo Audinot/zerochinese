@@ -1,0 +1,8 @@
+nav_list_title: navlist
+navs:
+  - title: 家/Home
+    url: /zerochinese/index.html
+
+  - title: 關於我/Aboot
+    url: /zerochinese/about.html
+
