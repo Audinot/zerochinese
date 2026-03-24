@@ -4,6 +4,4 @@
 
 layout: home
 position: 100
-navlevel: header
-navtitle: Home
 ---

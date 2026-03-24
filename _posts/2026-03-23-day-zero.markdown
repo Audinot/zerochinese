@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Day Zero"
+lang: zh-Hant
+cover_url: https://picsum.photos/id/63/1280/200
 ---
 
 # 你們好。
 
-![喝咖啡](/zerochinese/assets/images/coffee.jpg)
-
-你好，我的名字是 KAT... 我叫 咖啡☕️。
+你好，我的名字是 KAT... 我叫 "咖啡" ☕️。
 
 我是學生。  
 我是音樂老師 （music 老師）。  
@@ -16,3 +16,5 @@ title: "Day Zero"
 謝謝， 再見。
 
 --咖啡❤️
+
+![喝咖啡](/zerochinese/assets/images/coffee.jpg)

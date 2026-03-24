@@ -2,9 +2,6 @@
 layout: page
 title: 關於我 
 lang: zh-Hans
-position: 100
-navtitle: about
-navbar: true
 ---
 
 ![Me](/zerochinese/assets/images/me.jpg)
