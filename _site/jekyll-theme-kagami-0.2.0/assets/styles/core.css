@@ -37,7 +37,7 @@ figure { margin: 0; }
 @font-face { font-family: "Kagami TC"; src: local("Songti TC Regular"), local(STSongti-TC-Regular); font-weight: normal; font-style: normal; }
 @font-face { font-family: "Kagami TC"; src: local("Songti TC Bold"), local(STSongti-TC-Bold); font-weight: bold; font-style: normal; }
 @font-face { font-family: "Kagami Emoji"; src: local("Apple Color Emoji"), local("Segoe UI Emoji"), local("Segoe UI Symbol"), local("Noto Color Emoji"), local("Android Emoji"); }
-html { height: 100%; overflow-x: hidden; }
+html { height: 100%; overflow-x: hidden; background: #f2f3f4; }
 
 body { min-height: 100%; width: 100%; overflow: hidden; }
 
@@ -54,9 +54,10 @@ article pre > code { padding-left: 16px; padding-right: 16px; }
 article pre > code { padding-top: 16px; padding-bottom: 16px; }
 @media screen and (min-width: 680px) { article pre { margin-left: -32px; margin-right: -32px; }
   article pre > code { padding-left: 32px; padding-right: 32px; } }
-article blockquote { margin-left: 16px; margin-right: 16px; }
+article blockquote { background: #f9f9f9; border-left: 10px solid #ccc; margin-left: 16px; margin-right: 16px; padding: 1px 10px; }
 @media screen and (min-width: 680px) { article blockquote { margin-left: 32px; margin-right: 32px; } }
 article blockquote cite { display: block; text-align: right; margin-top: -32px; white-space: nowrap; }
+article th, article td { padding: 10px; }
 article .aside, article .sidenote, article .side-note { width: 160px; float: left; margin-left: -64px; margin-right: 32px; padding: 0; }
 @media screen and (max-width: 680px) { article h2::before, article h3::before, article h4::before, article h5::before, article h6::before { color: rgba(0, 0, 0, 0); }
   article .aside, article .sidenote, article .side-note { display: none; } }
@@ -101,7 +102,7 @@ article h1 + *, article h1 + .aside + *, article h1 + .sidenote + *, article h2 
 
 [lang^="ja"] { line-height: 1.8; font-family: "Crimson Text", "YuMincho", sans-serif, "Kagami Emoji"; }
 
-body { color: #3c3c3c; font-size: 18px; font-weight: 300; font-kerning: normal; border-top: 2px solid currentColor; }
+body { color: #722F37; font-size: 18px; font-weight: 300; font-kerning: normal; border-top: 2px solid currentColor; }
 
 a, a:hover, a:visited { text-decoration: none; color: inherit; }
 
@@ -119,6 +120,8 @@ h4 { font-weight: bold; }
 
 h5 { font-weight: bold; }
 
+article {  /* blockquote { font-style: italic; }
+*/ }
 article h2::before, article h3::before, article h4::before, article h5::before, article h6::before { content: "#"; display: inline-block; text-align: right; width: 90px; margin-left: -99px; margin-right: 9px; opacity: 0.08; }
 article h3::before { content: "##"; }
 article h4::before { content: "###"; }
@@ -134,21 +137,20 @@ article ul { list-style-type: disc; }
 article ul ul { list-style-type: circle; }
 article ul ul ul { list-style-type: square; }
 article ol { list-style-type: decimal; }
-article blockquote { font-style: italic; }
 article code { display: inline-block; padding: 0 0.3em; margin: 0 -0.05em; font-size: 0.875em; font-family: Courier, Monaco, monospace; color: #d32f2f; background: #fff6f6; border-radius: 3px; }
-article pre { color: #6f6f6f; background: #f2f2fa; }
+article pre { color: #b7505c; background: #f2f2fa; }
 article pre code { color: inherit; background: none; line-height: 1.6; }
 article mark { color: inherit; background: rgba(255, 255, 0, 0.35); }
-article hr { border: none; border-bottom: 1px solid #f0f0f0; width: 30%; }
+article hr { border: none; border-bottom: 1px solid #e4bcc1; width: 30%; }
 
 .site-title, .site-title:hover, .site-title:visited { display: inline-block; font-variant-caps: all-petite-caps; font-size: 0.875em; font-family: "Crimson Text", serif, "Kagami Emoji"; border-bottom: none; white-space: nowrap; }
 
-.site-nav { font-size: 0.875em; font-variant-caps: all-petite-caps; letter-spacing: 0.12em; }
+.site-nav { font-size: 1em; font-variant-caps: all-petite-caps; letter-spacing: 0.12em; }
 
 .page-link { transition: color 0.2s ease-in; }
 
-.site-nav:hover { color: #bcbcbc; }
-.site-nav:hover .page-link:hover { color: #3c3c3c; }
+.site-nav:hover { color: #e4bcc1; }
+.site-nav:hover .page-link:hover { color: #722F37; }
 
 .post-title { word-break: keep-all; margin-top: -9px; }
 
@@ -156,7 +158,7 @@ article hr { border: none; border-bottom: 1px solid #f0f0f0; width: 30%; }
 .post-cover .post-cover-wrapper { max-height: inherit; position: relative; transform: translateY(50%); }
 .post-cover img { width: 100%; margin: 0 !important; transform: translateY(-50%); }
 
-.post-footer { color: #bcbcbc; font-size: 0.875em; }
+.post-footer { color: #d598a0; font-size: 0.875em; }
 .post-footer:after { content: ""; display: table; clear: both; }
 .post-footer .post-meta { float: left; }
 .post-footer .post-tags { float: right; }
@@ -165,17 +167,17 @@ article hr { border: none; border-bottom: 1px solid #f0f0f0; width: 30%; }
 .post-footer .post-tags > li { display: inline; }
 .post-footer .post-tags > li:not(:last-child):after { content: " / "; }
 .post-footer .post-tags .tag-link { transition: color 0.2s ease-out; }
-.post-footer .post-tags .tag-link:hover { color: #6f6f6f; }
+.post-footer .post-tags .tag-link:hover { color: #b7505c; }
 
 .social-link { display: inline-block; width: 2em; height: 2em; line-height: 2em; transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
 
 .social-link:hover { transform: translateY(-0.25em); }
-.social-link:hover.social-github { color: #333; }
+.social-link:hover.social-github { color: #8534F3; }
 .social-link:hover.social-twitter { color: #1da1f2; }
 .social-link:hover.social-instagram { color: #e1306c; }
 .social-link:hover.social-rss { color: #f26522; }
 
-.credits { color: #bcbcbc; font-size: 0.68em; }
+.credits { color: #d598a0; font-size: 0.68em; }
 
 .post-list { list-style-type: none; padding-left: 0; margin-top: 0; margin-bottom: 0; }
 
@@ -183,7 +185,7 @@ article hr { border: none; border-bottom: 1px solid #f0f0f0; width: 30%; }
 
 .post-description { font-size: 0.875em; }
 
-.post-item-meta { font-variant-caps: all-petite-caps; color: #a2a2a2; }
+.post-item-meta { font-variant-caps: all-petite-caps; color: #d598a0; }
 
 .post-list-item .post-item-cover { opacity: 0.03; transition: opacity 0.5s ease-out; }
 

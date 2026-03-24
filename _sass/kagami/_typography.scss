@@ -77,9 +77,11 @@ article {
   ul ul ul { list-style-type: square;  }
   ol { list-style-type: decimal; }
 
+ /*
   blockquote {
     font-style: italic;
   }
+*/
 
   code {
     display: inline-block;
@@ -109,7 +111,8 @@ article {
 
   hr {
     border: none;
-    border-bottom: 1px solid $border-color;
+    // border-bottom: 1px solid $border-color;
+	border-bottom: 1px solid lighten($content-color, 50%);
     width: 30%;
   }
 }
@@ -124,7 +127,8 @@ article {
 }
 
 .site-nav {
-  font-size: 0.875em;
+//  font-size: 0.875em;
+  font-size: 1em;
   font-variant-caps: all-petite-caps;
   letter-spacing: 0.12em;
 }
@@ -167,7 +171,7 @@ article {
 }
 
 .post-footer {
-  color: lighten($content-color, 50%);
+  color: lighten($content-color, 40%);
   font-size: 0.875em;
   @include scut-clearfix;
 
@@ -195,14 +199,15 @@ article {
 
 .social-link:hover {
   transform: translateY(-0.25em);
-  &.social-github { color: #333; }
+//  &.social-github { color: #333; }
+  &.social-github { color: #8534F3; }
   &.social-twitter { color: #1da1f2; }
   &.social-instagram { color: #e1306c; }
   &.social-rss { color: #f26522; }
 }
 
 .credits {
-  color: lighten($content-color, 50%);
+  color: lighten($content-color, 40%);
   font-size: 0.68em;
 }
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Anything"
 lang: zh-Hant
-cover_url: https://picsum.photos/1280/720
+cover_url: https://picsum.photos/1280/200
 ---
 
 # Title 

@@ -4,4 +4,5 @@
 
 layout: home
 position: 100
+lang: zh-Hant
 ---

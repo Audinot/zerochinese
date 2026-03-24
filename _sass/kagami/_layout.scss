@@ -6,6 +6,7 @@ $post-footer-spacing: 3 * $spacing-unit;
 html {
   height: 100%;
   overflow-x: hidden;
+  background: $background-color;
 }
 
 body {
@@ -68,8 +69,11 @@ article {
   }
 
   blockquote {
+	background: #f9f9f9;
+	border-left: 10px solid #ccc;
     margin-left: 0.5 * $spacing-unit;
     margin-right: 0.5 * $spacing-unit;
+	padding:  1px 10px;
     @media screen and (min-width: $content-width) {
       margin-left: $spacing-unit;
       margin-right: $spacing-unit;
@@ -80,6 +84,10 @@ article {
       margin-top: -$spacing-unit;
       white-space: nowrap;
     }
+  }
+  
+  th, td {
+	  padding: 10px;
   }
 
   .aside, .sidenote, .side-note {
