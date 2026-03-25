@@ -14,10 +14,7 @@ To add pages to the navbar, create the page and set up as usual:
 ```yaml
 layout: page
 title: literally anything
-lang: zh-Hans
-position: 100
-navtitle: literally-anything
-navbar: true
+lang: zh-Hant
 ```
 
 Now edit navlist.yml in the data folder:

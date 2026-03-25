@@ -3,6 +3,9 @@ navs:
   - title: 家/Home
     url: /zerochinese/index.html
 
+  - title: 標籤/Tags
+    url: /zerochinese/tags
+
   - title: 關於我/Aboot
     url: /zerochinese/about.html
 

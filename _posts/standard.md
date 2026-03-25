@@ -3,9 +3,8 @@ layout: post
 title: "Anything"
 lang: zh-Hant
 cover_url: https://picsum.photos/1280/200
+tag: HSK1
 ---
-
-# Title 
 
 This is a test of the cover image.
 
