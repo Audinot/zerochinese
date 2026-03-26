@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/zerochinese/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/zerochinese/" rel="alternate" type="text/html" /><updated>2026-03-24T20:18:40-07:00</updated><id>http://localhost:4000/zerochinese/feed.xml</id><title type="html">Zero Chinese</title><subtitle>From zero Chinese skill to maybe one Chinese skill.</subtitle><entry xml:lang="zh-Hant"><title type="html">Unit 1: 你好</title><link href="http://localhost:4000/zerochinese/2026/03/24/hsk1-unit1.html" rel="alternate" type="text/html" title="Unit 1: 你好" /><published>2026-03-24T00:00:00-07:00</published><updated>2026-03-24T00:00:00-07:00</updated><id>http://localhost:4000/zerochinese/2026/03/24/hsk1-unit1</id><content type="html" xml:base="http://localhost:4000/zerochinese/2026/03/24/hsk1-unit1.html"><![CDATA[<h2 id="課文">課文</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/zerochinese/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/zerochinese/" rel="alternate" type="text/html" /><updated>2026-03-26T10:20:49-07:00</updated><id>http://localhost:4000/zerochinese/feed.xml</id><title type="html">Zero Chinese</title><subtitle>From zero Chinese skill to maybe one Chinese skill.</subtitle><entry xml:lang="zh-Hant"><title type="html">Unit 2: 謝謝你</title><link href="http://localhost:4000/zerochinese/2026/03/26/hsk1-unit2.html" rel="alternate" type="text/html" title="Unit 2: 謝謝你" /><published>2026-03-26T00:00:00-07:00</published><updated>2026-03-26T00:00:00-07:00</updated><id>http://localhost:4000/zerochinese/2026/03/26/hsk1-unit2</id><content type="html" xml:base="http://localhost:4000/zerochinese/2026/03/26/hsk1-unit2.html"><![CDATA[<h2 id="課文">課文</h2>
+
+<p>A： <mark>謝謝</mark>！<br />
+B： <mark>不</mark>謝！</p>
+
+<hr />
+
+<p>A： 謝謝你！<br />
+B： <mark>不客氣</mark>！</p>
+
+<hr />
+
+<p>A： <mark>再見</mark>！<br />
+B： 再見！</p>
+
+<blockquote>
+  <p><strong>New words</strong></p>
+
+  <ol>
+    <li>謝謝</li>
+    <li>不</li>
+    <li>不客氣</li>
+    <li>再見</li>
+  </ol>
+</blockquote>
+
+<p>–咖啡❤️</p>]]></content><author><name></name></author><category term="HSK1" /><summary type="html"><![CDATA[課文]]></summary></entry><entry xml:lang="zh-Hant"><title type="html">Unit 1: 你好</title><link href="http://localhost:4000/zerochinese/2026/03/24/hsk1-unit1.html" rel="alternate" type="text/html" title="Unit 1: 你好" /><published>2026-03-24T00:00:00-07:00</published><updated>2026-03-24T00:00:00-07:00</updated><id>http://localhost:4000/zerochinese/2026/03/24/hsk1-unit1</id><content type="html" xml:base="http://localhost:4000/zerochinese/2026/03/24/hsk1-unit1.html"><![CDATA[<h2 id="課文">課文</h2>
 
 <p>A： <mark>你好</mark>！ <br />
 B： 你好！</p>
@@ -37,4 +63,4 @@ B： <mark>沒關係</mark>！</p>
 
 <p>–咖啡❤️</p>
 
-<p><img src="/zerochinese/assets/images/coffee.jpg" alt="喝咖啡" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[你們好。]]></summary></entry></feed>
+<p><img src="/zerochinese/assets/images/coffee.jpg" alt="喝咖啡" /></p>]]></content><author><name></name></author><category term="HSK1" /><summary type="html"><![CDATA[你們好。]]></summary></entry></feed>

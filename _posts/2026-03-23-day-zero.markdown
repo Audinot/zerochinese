@@ -3,6 +3,7 @@ layout: post
 title: "Day Zero"
 lang: zh-Hant
 cover_url: https://picsum.photos/id/63/1280/200
+tag: HSK1
 ---
 
 # 你們好。
