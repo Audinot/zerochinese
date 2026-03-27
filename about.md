@@ -2,6 +2,7 @@
 layout: page
 title: 關於我 
 lang: zh-Hant
+cover_url: ''
 ---
 
 # 我叫“KAFE”。

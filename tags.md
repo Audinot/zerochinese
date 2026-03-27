@@ -1,5 +1,6 @@
 ---
 layout: page 
+cover_url: ''
 ---
 
 {% for tag in site.tags %}

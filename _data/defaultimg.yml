@@ -1,0 +1,12 @@
+id: defaultgallery
+defaults:
+  - alt: img1 
+    url: https://picsum.photos/id/14/1280/100 
+
+  - alt: img2 
+    url: https://picsum.photos/id/25/1280/100
+
+  - alt: img3 
+    url: https://picsum.photos/id/29/1280/100
+
+
