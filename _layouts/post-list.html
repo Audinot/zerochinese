@@ -32,7 +32,7 @@ layout: default
     {% if post.cover_url %}
 	  <div class="post-item-cover" style="background-image: url('{{ post.cover_url }}')"></div>
 	{% else %}
-	 {% assign randomimg = site.data.defaultimg.defaults | sample: 3 %}
+	 {% assign randomimg = site.data.defaultimg.defaults | sample: 10 %}
 	 <div class="post-item-cover" style="background-image: url('{{ randomimg[0].url }}')"></div>
     {% endif %}
     <div class="post-item-label">
