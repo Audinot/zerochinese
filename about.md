@@ -22,7 +22,7 @@ HSK 1 (2.0)
 | ~~Unit 1~~ | Unit 6 | Unit 11 |
 | ~~Unit 2~~ | Unit 7 | Unit 12 |
 | ~~Unit 3~~ | Unit 8 | Unit 13 |
-| Unit 4 | Unit 9 | Unit 14 |
+| ~~Unit 4~~ | Unit 9 | Unit 14 |
 | Unit 5 |  Unit 10 | Unit 15 |
 
 
