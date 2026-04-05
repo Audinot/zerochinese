@@ -1,4 +1,198 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/zerochinese/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/zerochinese/" rel="alternate" type="text/html" /><updated>2026-04-04T13:03:14-07:00</updated><id>http://localhost:4000/zerochinese/feed.xml</id><title type="html">Zero Chinese</title><subtitle>From zero Chinese skill to maybe one Chinese skill.</subtitle><entry xml:lang="zh-Hant"><title type="html">我們都喜歡 DOGGOS</title><link href="http://localhost:4000/zerochinese/2026/04/04/family.html" rel="alternate" type="text/html" title="我們都喜歡 DOGGOS" /><published>2026-04-04T00:00:00-07:00</published><updated>2026-04-04T00:00:00-07:00</updated><id>http://localhost:4000/zerochinese/2026/04/04/family</id><content type="html" xml:base="http://localhost:4000/zerochinese/2026/04/04/family.html"><![CDATA[<p><img src="/zerochinese/assets/images/famuly.jpg" alt="我家" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/zerochinese/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/zerochinese/" rel="alternate" type="text/html" /><updated>2026-04-05T11:19:36-07:00</updated><id>http://localhost:4000/zerochinese/feed.xml</id><title type="html">Zero Chinese</title><subtitle>From zero Chinese skill to maybe one Chinese skill.</subtitle><entry xml:lang="zh-Hant"><title type="html">Unit 5: 她女兒今年二十歲</title><link href="http://localhost:4000/zerochinese/2026/04/05/unit5.html" rel="alternate" type="text/html" title="Unit 5: 她女兒今年二十歲" /><published>2026-04-05T00:00:00-07:00</published><updated>2026-04-05T00:00:00-07:00</updated><id>http://localhost:4000/zerochinese/2026/04/05/unit5</id><content type="html" xml:base="http://localhost:4000/zerochinese/2026/04/05/unit5.html"><![CDATA[<h1 id="課文">課文</h1>
+
+<p>A： 你家有幾口人？ <br />
+B： 我家有三口人。</p>
+
+<hr />
+
+<p>A： 你女兒幾歲了？ <br />
+B： 她今年四歲了。</p>
+
+<hr />
+
+<p>A： 李老師多大了？ <br />
+B： 她今年50歲了。 <br />
+A： 她女兒呢？ <br />
+B： 她女兒今年20歲。</p>
+
+<blockquote>
+  <p>New words</p>
+
+  <ol>
+    <li>家</li>
+    <li>有</li>
+    <li>口</li>
+    <li>女兒</li>
+    <li>幾</li>
+    <li>歲</li>
+    <li>了</li>
+    <li>今年</li>
+    <li>多</li>
+    <li>大</li>
+  </ol>
+</blockquote>
+
+<h3 id="grammar">Grammar</h3>
+
+<p><strong>The interrogative pronoun 幾</strong></p>
+
+<p>幾 is used to ask about a number, usually less than 10.</p>
+
+<ol>
+  <li>你有幾個漢語老師？</li>
+  <li>李老師家有幾口人？</li>
+  <li>你女兒幾歲了？</li>
+</ol>
+
+<p><strong>Numbers below 100</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>一</td>
+      <td>二</td>
+      <td>三</td>
+      <td>四</td>
+      <td>五</td>
+      <td>六</td>
+      <td>七</td>
+      <td>八</td>
+      <td>九</td>
+    </tr>
+    <tr>
+      <td>十</td>
+      <td>十一</td>
+      <td>十二</td>
+      <td>十三</td>
+      <td>十四</td>
+      <td>十五</td>
+      <td>十六</td>
+      <td>十七</td>
+      <td>十八</td>
+      <td>十九</td>
+    </tr>
+    <tr>
+      <td>二十</td>
+      <td>二十一</td>
+      <td>二十二</td>
+      <td>二十三</td>
+      <td>二十四</td>
+      <td>二十五</td>
+      <td>二十六</td>
+      <td>二十七</td>
+      <td>二十八</td>
+      <td>二十九</td>
+    </tr>
+    <tr>
+      <td>三十</td>
+      <td>三十一</td>
+      <td>三十二</td>
+      <td>三十三</td>
+      <td>三十四</td>
+      <td>三十五</td>
+      <td>三十六</td>
+      <td>三十七</td>
+      <td>三十八</td>
+      <td>三十九</td>
+    </tr>
+    <tr>
+      <td>四十</td>
+      <td>四十一</td>
+      <td>四十二</td>
+      <td>四十三</td>
+      <td>四十四</td>
+      <td>四十五</td>
+      <td>四十六</td>
+      <td>四十七</td>
+      <td>四十八</td>
+      <td>四十九</td>
+    </tr>
+    <tr>
+      <td>五十</td>
+      <td>五十一</td>
+      <td>五十二</td>
+      <td>五十三</td>
+      <td>五十四</td>
+      <td>五十五</td>
+      <td>五十六</td>
+      <td>五十七</td>
+      <td>五十八</td>
+      <td>五十九</td>
+    </tr>
+    <tr>
+      <td>六十</td>
+      <td>六十一</td>
+      <td>六十二</td>
+      <td>六十三</td>
+      <td>六十四</td>
+      <td>六十五</td>
+      <td>六十六</td>
+      <td>六十七</td>
+      <td>六十八</td>
+      <td>六十九</td>
+    </tr>
+    <tr>
+      <td>七十</td>
+      <td>七十一</td>
+      <td>七十二</td>
+      <td>七十三</td>
+      <td>七十四</td>
+      <td>七十五</td>
+      <td>七十六</td>
+      <td>七十七</td>
+      <td>七十八</td>
+      <td>七十九</td>
+    </tr>
+    <tr>
+      <td>八十</td>
+      <td>八十一</td>
+      <td>八十二</td>
+      <td>八十三</td>
+      <td>八十四</td>
+      <td>八十五</td>
+      <td>八十六</td>
+      <td>八十七</td>
+      <td>八十八</td>
+      <td>八十九</td>
+    </tr>
+    <tr>
+      <td>九十</td>
+      <td>九十一</td>
+      <td>九十二</td>
+      <td>九十三</td>
+      <td>九十四</td>
+      <td>九十五</td>
+      <td>九十六</td>
+      <td>九十七</td>
+      <td>九十八</td>
+      <td>九十九</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Indicating a change with 了</strong></p>
+
+<p>了 is used at the end of a sentence to indicate a change, 
+or the occurance of a new situation.</p>
+
+<ol>
+  <li>李老師今年50歲了。</li>
+  <li>我朋友的女兒今年四歲了。</li>
+  <li>你女兒幾歲了？</li>
+</ol>
+
+<p><strong>The interrogative phrase 多+大</strong></p>
+
+<p>多大 is used to ask about one’s age.</p>
+
+<ol>
+  <li>你多大了？</li>
+  <li>你女兒今年多大了？</li>
+  <li>李老師今年多大了？</li>
+</ol>
+
+<p>–咖啡❤️</p>]]></content><author><name></name></author><category term="HSK1" /><summary type="html"><![CDATA[課文]]></summary></entry><entry xml:lang="zh-Hant"><title type="html">我們都喜歡 DOGGOS</title><link href="http://localhost:4000/zerochinese/2026/04/04/family.html" rel="alternate" type="text/html" title="我們都喜歡 DOGGOS" /><published>2026-04-04T00:00:00-07:00</published><updated>2026-04-04T00:00:00-07:00</updated><id>http://localhost:4000/zerochinese/2026/04/04/family</id><content type="html" xml:base="http://localhost:4000/zerochinese/2026/04/04/family.html"><![CDATA[<p><img src="/zerochinese/assets/images/famuly.jpg" alt="我家" /></p>
 
 <p>這是我家！ 我家有四口人。</p>
 
