@@ -1,4 +1,124 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/zerochinese/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/zerochinese/" rel="alternate" type="text/html" /><updated>2026-04-05T11:23:28-07:00</updated><id>http://localhost:4000/zerochinese/feed.xml</id><title type="html">Zero Chinese</title><subtitle>From zero Chinese skill to maybe one Chinese skill.</subtitle><entry xml:lang="zh-Hant"><title type="html">Unit 5: 她女兒今年二十歲</title><link href="http://localhost:4000/zerochinese/2026/04/05/unit5.html" rel="alternate" type="text/html" title="Unit 5: 她女兒今年二十歲" /><published>2026-04-05T00:00:00-07:00</published><updated>2026-04-05T00:00:00-07:00</updated><id>http://localhost:4000/zerochinese/2026/04/05/unit5</id><content type="html" xml:base="http://localhost:4000/zerochinese/2026/04/05/unit5.html"><![CDATA[<h1 id="課文">課文</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/zerochinese/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/zerochinese/" rel="alternate" type="text/html" /><updated>2026-04-08T11:08:30-07:00</updated><id>http://localhost:4000/zerochinese/feed.xml</id><title type="html">Zero Chinese</title><subtitle>From zero Chinese skill to maybe one Chinese skill.</subtitle><entry xml:lang="zh-Hant"><title type="html">Unit 6: 我會說漢語</title><link href="http://localhost:4000/zerochinese/2026/04/08/unit6.html" rel="alternate" type="text/html" title="Unit 6: 我會說漢語" /><published>2026-04-08T00:00:00-07:00</published><updated>2026-04-08T00:00:00-07:00</updated><id>http://localhost:4000/zerochinese/2026/04/08/unit6</id><content type="html" xml:base="http://localhost:4000/zerochinese/2026/04/08/unit6.html"><![CDATA[<h1 id="課文">課文</h1>
+
+<p>A： 你會說漢語嗎？ <br />
+B： 我會說漢語。 <br />
+A： 你媽媽會說漢語嗎？ <br />
+B： 她不會說。</p>
+
+<hr />
+
+<p>A： 中國菜很好吃嗎？ <br />
+B： 中國菜很好吃。 <br />
+A： 你會做中國菜嗎？ <br />
+B： 我不會做。</p>
+
+<hr />
+
+<p>A： 你會寫漢字嗎？ <br />
+B： 我會寫。 <br />
+A： 這個字怎麼寫？ <br />
+B： 對不起， 這個字我會讀， 不會寫。</p>
+
+<blockquote>
+  <p>New words</p>
+
+  <ol>
+    <li>會</li>
+    <li>說</li>
+    <li>媽媽</li>
+    <li>菜</li>
+    <li>很</li>
+    <li>好吃</li>
+    <li>做</li>
+    <li>寫</li>
+    <li>漢字</li>
+    <li>字</li>
+    <li>怎麼</li>
+    <li>讀</li>
+  </ol>
+</blockquote>
+
+<h3 id="grammar">Grammar</h3>
+
+<p><strong>The modal verb 會</strong></p>
+
+<p>會 is used before a verb, indicating acquiring an ability 
+through learning. Its negative form is 不會。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Subject</th>
+      <th>(不)會</th>
+      <th>Verb</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>我</td>
+      <td>會</td>
+      <td>寫漢字。</td>
+    </tr>
+    <tr>
+      <td>我</td>
+      <td>不會</td>
+      <td>做中國菜。</td>
+    </tr>
+    <tr>
+      <td>你媽媽</td>
+      <td>會</td>
+      <td>說漢語嗎？</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Sentences with adjectival predicate</strong></p>
+
+<p>Used in the structure “subject + adverb of degree + 
+adjective,” the adjective describes the nature or state 
+of somebody or something, usually following the 
+adverb of degree 很. The negative form is 
+subject + 不 + adjective.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Subject</th>
+      <th>Degree/不</th>
+      <th>Adjective</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>我</td>
+      <td>很</td>
+      <td>好。</td>
+    </tr>
+    <tr>
+      <td>我媽媽的漢語</td>
+      <td>不</td>
+      <td>好。</td>
+    </tr>
+    <tr>
+      <td>中國菜</td>
+      <td>很</td>
+      <td>好吃。</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>The interrogative pronoun 怎麼</strong></p>
+
+<p>怎麼 is used before a verb to ask about the manner 
+of an action.</p>
+
+<ol>
+  <li>這個漢字怎麼讀？</li>
+  <li>你的漢語名字怎麼寫？</li>
+  <li>這個字怎麼寫？</li>
+</ol>
+
+<p>–咖啡❤️</p>]]></content><author><name></name></author><category term="HSK1" /><summary type="html"><![CDATA[課文]]></summary></entry><entry xml:lang="zh-Hant"><title type="html">Unit 5: 她女兒今年二十歲</title><link href="http://localhost:4000/zerochinese/2026/04/05/unit5.html" rel="alternate" type="text/html" title="Unit 5: 她女兒今年二十歲" /><published>2026-04-05T00:00:00-07:00</published><updated>2026-04-05T00:00:00-07:00</updated><id>http://localhost:4000/zerochinese/2026/04/05/unit5</id><content type="html" xml:base="http://localhost:4000/zerochinese/2026/04/05/unit5.html"><![CDATA[<h1 id="課文">課文</h1>
 
 <p>A： 你家有幾口人？ <br />
 B： 我家有三口人。</p>
